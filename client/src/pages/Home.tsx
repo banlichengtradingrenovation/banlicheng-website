@@ -109,7 +109,7 @@ export default function Home() {
     <div className="site-shell">
       <header className="site-header">
         <a className="wordmark wordmark-logo" href="#top" onClick={closeMenu} aria-label="Ban Li Cheng home">
-          <img src="/brand/ban-li-cheng-logo.png" alt="Ban Li Cheng Trading & Renovation" width={885} height={235} />
+          <img src="/brand/ban-li-cheng-logo.png" alt="Ban Li Cheng Trading & Renovation" width={1400} height={368} />
         </a>
         <button
           className="menu-toggle"
@@ -281,7 +281,7 @@ export default function Home() {
 
       <footer className="site-footer section-ink">
         <div className="page-width footer-layout">
-          <div><a className="wordmark wordmark-logo wordmark-footer" href="#top" aria-label="Ban Li Cheng home"><img src="/brand/ban-li-cheng-logo.png" alt="Ban Li Cheng Trading & Renovation" width={885} height={235} /></a><p>{isChinese ? <>新加坡装修承包商，自1984年成立。<br />前身为 Sin Bee Loong。</> : <>Established Singapore renovation contractor since 1984.<br />Formerly Sin Bee Loong.</>}</p></div>
+          <div><a className="wordmark wordmark-logo wordmark-footer" href="#top" aria-label="Ban Li Cheng home"><img src="/brand/ban-li-cheng-logo.png" alt="Ban Li Cheng Trading & Renovation" width={1400} height={368} /></a><p>{isChinese ? <>新加坡装修承包商，自1984年成立。<br />前身为 Sin Bee Loong。</> : <>Established Singapore renovation contractor since 1984.<br />Formerly Sin Bee Loong.</>}</p></div>
           <div className="footer-right"><span>HDB · Condo · Landed</span><a href={`tel:+${phoneNumber}`}>{displayPhone}</a><span>© {new Date().getFullYear()} Ban Li Cheng Trading &amp; Renovation</span></div>
         </div>
       </footer>

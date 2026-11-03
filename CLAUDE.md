@@ -20,7 +20,7 @@ Open `http://localhost:3000`. The same command can be run as `pnpm dev:static`. 
 - Main page: `client/src/pages/Home.tsx`
 - Visual system: `client/src/index.css`
 - HTML metadata: `client/index.html`
-- Company logo: `client/public/brand/ban-li-cheng-logo.png` (navy on transparent). The live file is the cream/white version (for the dark background, no background tab). `ban-li-cheng-logo-navy.png` is the original navy version for light backgrounds. Do not redraw the logo without owner approval.
+- Company logo: `client/public/brand/ban-li-cheng-logo.png` is the near-white version used on the dark header/footer (no background tab). `ban-li-cheng-logo-navy.png` is the original navy version for light backgrounds. Both are rendered from the original Illustrator artwork in `brand-source/ban-li-cheng-logo.ai`. Favicon files (`favicon.ico`, `favicon-32.png`, `apple-touch-icon.png`) use the "B" mark. Do not redraw the logo without owner approval.
 - Local videos: `client/public/media/`
 - Single route manifest: `client/public/manus-routes.json`
 - Contact/WhatsApp number: `+65 8156 8359` / `https://wa.me/6581568359`
