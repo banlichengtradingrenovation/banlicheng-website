@@ -20,7 +20,7 @@ Open `http://localhost:3000`. The same command can be run as `pnpm dev:static`. 
 - Main page: `client/src/pages/Home.tsx`
 - Visual system: `client/src/index.css`
 - HTML metadata: `client/index.html`
-- Company logo: `client/public/brand/ban-li-cheng-logo.png` (navy on transparent). It is shown in the header and footer on a light `--paper` tab (`.wordmark-logo` in `index.css`) so it stays readable on the dark background. Do not recolor or redraw the logo without owner approval.
+- Company logo: `client/public/brand/ban-li-cheng-logo.png` (navy on transparent). The live file is the cream/white version (for the dark background, no background tab). `ban-li-cheng-logo-navy.png` is the original navy version for light backgrounds. Do not redraw the logo without owner approval.
 - Local videos: `client/public/media/`
 - Single route manifest: `client/public/manus-routes.json`
 - Contact/WhatsApp number: `+65 8156 8359` / `https://wa.me/6581568359`
