@@ -165,34 +165,20 @@ export default function Home() {
         </section>
 
         <section className="pain-section section-cream" id="why">
-          <div className="page-width pain-layout">
+          <div className="page-width pain-layout pain-single">
             <div className="section-intro">
-              <div className="eyebrow"><span className="eyebrow-line" /> {isChinese ? "装修烦恼是真实的" : "The renovation worry is real"}</div>
-              <h2>{isChinese ? "装修应该像新家，而不是新烦恼。" : "It should feel like a new home—not a new headache."}</h2>
-              <p>{isChinese ? "屋主需要的不是更多承诺，而是一支能把下一步讲清楚的装修团队。" : "Most homeowners do not need more promises. They need a contractor who can make the next step feel simple."}</p>
-            </div>
-            <div className="pain-list">
-              <details className="pain-item" open>
-                <summary><span className="pain-number">01</span><span className="pain-question">{isChinese ? "“报价到底包括什么？”" : "“What is actually included?”"}</span><ChevronDown size={18} /></summary>
-                <p>{isChinese ? "报价不清晰和额外费用，会让预算规划变得困难。" : "Unclear quotations and surprise costs make it hard to plan with confidence."}</p>
-              </details>
-              <details className="pain-item">
-                <summary><span className="pain-number">02</span><span className="pain-question">{isChinese ? "“谁来协调全部工程？”" : "“Who is coordinating all this?”"}</span><ChevronDown size={18} /></summary>
-                <p>{isChinese ? "多个承包方、沟通遗漏和延误，会让装修变成屋主的全职工作。" : "Too many parties, missed messages and delays turn a home project into a full-time job."}</p>
-              </details>
-              <details className="pain-item">
-                <summary><span className="pain-number">03</span><span className="pain-question">{isChinese ? "“最后的工艺能做好吗？”" : "“Will the finish be done right?”"}</span><ChevronDown size={18} /></summary>
-                <p>{isChinese ? "好的设计，只有在每个细节都认真完成时，才真正有价值。" : "Beautiful ideas only matter when the workmanship holds up in the details."}</p>
-              </details>
+              <div className="eyebrow"><span className="eyebrow-line" /> {isChinese ? "我们的承诺" : "Our promise"}</div>
+              <h2>{isChinese ? "您的家，是我们最重视的事。" : "Your home is our priority."}</h2>
+              <p>{isChinese ? "装修开始之前，您会清楚知道工程内容、价钱，以及谁会到您家施工。" : "Before work begins, you will know the scope, the price and who will be working in your home."}</p>
             </div>
           </div>
         </section>
 
-        <section className="solution-section section-ink" id="solution">
+        <section className="solution-section section-paper theme-light" id="solution">
           <div className="page-width solution-layout">
             <div className="solution-statement">
               <div className="eyebrow eyebrow-light"><span className="eyebrow-line" /> {isChinese ? "Ban Li Cheng 的方式" : "The Ban Li Cheng way"}</div>
-              <h2>{isChinese ? "先把问题讲清楚，再打造解决方案。" : "We clear the problem before we build the solution."}</h2>
+              <h2>{isChinese ? "自1984年起，认真做好每一个新加坡的家。" : "Singapore renovation, done properly since 1984."}</h2>
               <p>{isChinese ? "Ban Li Cheng 前身为 Sin Bee Loong，自1984年以来帮助新加坡屋主做出更好的装修决定。" : "Formerly Sin Bee Loong, Ban Li Cheng has been helping Singapore homeowners make better renovation decisions since 1984."}</p>
               <a className="text-link text-link-light" href="#contact">{isChinese ? "聊聊您的装修计划" : "Talk through your renovation"} <ArrowUpRight size={17} /></a>
             </div>
@@ -239,7 +225,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="process-section section-dark" id="process">
+        <section className="process-section section-cream theme-light" id="process">
           <div className="page-width">
             <div className="section-heading-row process-heading">
               <div>
@@ -249,10 +235,10 @@ export default function Home() {
               <p className="heading-note heading-note-light">{isChinese ? "没有强硬推销，只有实际的第一步，以及清楚知道接下来该做什么的团队。" : "No hard sell. Just a practical first step and a team that understands what comes next."}</p>
             </div>
             <div className="process-grid">
-              <div className="process-card"><span>01</span><Clock3 size={20} /><h3>{isChinese ? "告诉我们您的家" : "Tell us about your home"}</h3><p>{isChinese ? "分享住宅类型、想法，以及目前哪里不够理想。" : "Share your property type, ideas and what is not working today."}</p></div>
-              <div className="process-card"><span>02</span><MapPin size={20} /><h3>{isChinese ? "上门了解现场" : "Meet at the site"}</h3><p>{isChinese ? "先正确了解空间，再为您建议合适工程。" : "We understand the space properly before recommending the work."}</p></div>
-              <div className="process-card"><span>03</span><Ruler size={20} /><h3>{isChinese ? "查看清晰报价" : "Review a clear quote"}</h3><p>{isChinese ? "了解建议工程，更有信心地做决定。" : "See the proposed works and make decisions with more confidence."}</p></div>
-              <div className="process-card"><span>04</span><Check size={20} /><h3>{isChinese ? "细心完成装修" : "Renovate with care"}</h3><p>{isChinese ? "由我们的团队协调工程，认真完成交付。" : "Our team coordinates the work towards a considered handover."}</p></div>
+              <div className="process-card"><Clock3 size={20} /><h3>{isChinese ? "告诉我们您的家" : "Tell us about your home"}</h3><p>{isChinese ? "分享您的住宅类型和想法。" : "Share your property type and ideas."}</p></div>
+              <div className="process-card"><MapPin size={20} /><h3>{isChinese ? "上门了解现场" : "Meet at the site"}</h3><p>{isChinese ? "先了解空间，再建议工程。" : "We view the space before recommending work."}</p></div>
+              <div className="process-card"><Ruler size={20} /><h3>{isChinese ? "查看清晰报价" : "Review a clear quote"}</h3><p>{isChinese ? "开工前清楚了解工程内容。" : "Know the scope before work begins."}</p></div>
+              <div className="process-card"><Check size={20} /><h3>{isChinese ? "细心完成装修" : "Renovate with care"}</h3><p>{isChinese ? "由我们协调工程，直至交付。" : "We coordinate the work through to handover."}</p></div>
             </div>
           </div>
         </section>
@@ -269,10 +255,10 @@ export default function Home() {
               </div>
             </div>
             <form className="enquiry-form" onSubmit={handleSubmit}>
-              <div className="form-heading"><span>01 / {isChinese ? "快速咨询" : "quick enquiry"}</span><h3>{isChinese ? "一起制定计划。" : "Let’s make a plan."}</h3></div>
+              <div className="form-heading"><span>{isChinese ? "快速咨询" : "Quick enquiry"}</span><h3>{isChinese ? "一起制定计划。" : "Let’s make a plan."}</h3></div>
               <label>{isChinese ? "姓名" : "Name"}<input name="name" type="text" placeholder={isChinese ? "您的姓名" : "Your name"} required /></label>
               <div className="form-row"><label>{isChinese ? "手机号码" : "Mobile number"}<input name="phone" type="tel" placeholder="e.g. 8123 4567" required /></label><label>{isChinese ? "住宅类型" : "Home type"}<select name="property" defaultValue="" required><option value="" disabled>{isChinese ? "请选择" : "Select one"}</option><option>HDB</option><option>Condo</option><option>Landed</option><option>{isChinese ? "还不确定" : "Not sure yet"}</option></select></label></div>
-              <label>{isChinese ? "您想改善什么？" : "What would you like to improve?"}<textarea name="details" rows={3} placeholder={isChinese ? "厨房、木工、全屋装修……" : "Kitchen, carpentry, whole-home renovation…"} /></label>
+              <label>{isChinese ? "您想改善什么？" : "What would you like to improve?"}<textarea name="details" rows={2} placeholder={isChinese ? "厨房、木工、全屋装修……" : "Kitchen, carpentry, whole-home renovation…"} /></label>
               <button className="button button-light button-full" type="submit">{isChinese ? "通过 WhatsApp 发送咨询" : "Send enquiry on WhatsApp"} <ArrowUpRight size={17} /></button>
               {submitted && <p className="form-success" role="status">{isChinese ? "您的信息已准备好发送到 WhatsApp，期待了解您的家。" : "Your message is ready in WhatsApp. We look forward to hearing about your home."}</p>}
               <p className="form-note">{isChinese ? "您的资料只会用于跟进装修咨询。" : "We will use your details only to follow up on your renovation enquiry."}</p>
