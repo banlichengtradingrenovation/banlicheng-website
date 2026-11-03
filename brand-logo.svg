@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="180" viewBox="0 0 640 180" role="img" aria-labelledby="title desc">
+  <title id="title">Ban Li Cheng Renovation Contractor</title>
+  <desc id="desc">Ban Li Cheng Renovation Contractor established since 1984</desc>
+  <rect width="640" height="180" fill="#1e211f"/>
+  <rect x="32" y="32" width="116" height="116" fill="none" stroke="#d4a45d" stroke-width="3"/>
+  <path d="M60 120 119 60M82 119l40-40M60 77l43 43" fill="none" stroke="#d4a45d" stroke-width="4" stroke-linecap="square"/>
+  <text x="180" y="84" fill="#fffdf7" font-family="Arial, Helvetica, sans-serif" font-size="33" font-weight="700" letter-spacing="9">BAN LI CHENG</text>
+  <text x="182" y="116" fill="#d4a45d" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" letter-spacing="5">RENOVATION CONTRACTOR · SINCE 1984</text>
+</svg>
