@@ -179,7 +179,7 @@ export default function Home() {
             <div className="solution-statement">
               <div className="eyebrow eyebrow-light"><span className="eyebrow-line" /> {isChinese ? "Ban Li Cheng 的方式" : "The Ban Li Cheng way"}</div>
               <h2>{isChinese ? "自1984年起，认真做好每一个新加坡的家。" : "Singapore renovation, done properly since 1984."}</h2>
-              <p>{isChinese ? "Ban Li Cheng 前身为 Sin Bee Loong，自1984年以来帮助新加坡屋主做出更好的装修决定。" : "Formerly Sin Bee Loong, Ban Li Cheng has been helping Singapore homeowners make better renovation decisions since 1984."}</p>
+              <p>{isChinese ? "自1984年以来，Ban Li Cheng 一直帮助新加坡屋主做出更好的装修决定。" : "Since 1984, Ban Li Cheng has been helping Singapore homeowners make better renovation decisions."}</p>
               <a className="text-link text-link-light" href="#contact">{isChinese ? "聊聊您的装修计划" : "Talk through your renovation"} <ArrowUpRight size={17} /></a>
             </div>
             <div className="solution-points">
@@ -281,7 +281,7 @@ export default function Home() {
 
       <footer className="site-footer section-ink">
         <div className="page-width footer-layout">
-          <div><a className="wordmark wordmark-logo wordmark-footer" href="#top" aria-label="Ban Li Cheng home"><img src="/brand/ban-li-cheng-logo.png" alt="Ban Li Cheng Trading & Renovation" width={1400} height={368} /></a><p>{isChinese ? <>新加坡装修承包商，自1984年成立。<br />前身为 Sin Bee Loong。</> : <>Established Singapore renovation contractor since 1984.<br />Formerly Sin Bee Loong.</>}</p></div>
+          <div><a className="wordmark wordmark-logo wordmark-footer" href="#top" aria-label="Ban Li Cheng home"><img src="/brand/ban-li-cheng-logo.png" alt="Ban Li Cheng Trading & Renovation" width={1400} height={368} /></a><p>{isChinese ? <>新加坡装修承包商，自1984年成立。</> : <>Established Singapore renovation contractor since 1984.</>}</p></div>
           <div className="footer-right"><span>HDB · Condo · Landed</span><a href={`tel:+${phoneNumber}`}>{displayPhone}</a><span>© {new Date().getFullYear()} Ban Li Cheng Trading &amp; Renovation</span></div>
         </div>
       </footer>

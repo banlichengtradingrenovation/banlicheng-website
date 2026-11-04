@@ -1,6 +1,6 @@
 # Ban Li Cheng Renovation Website
 
-A mobile-first, bilingual (English / 简体中文) one-page website for Ban Li Cheng Trading & Renovation, a Singapore renovation contractor established in 1984 and formerly known as Sin Bee Loong.
+A mobile-first, bilingual (English / 简体中文) one-page website for Ban Li Cheng Trading & Renovation, a Singapore renovation contractor established in 1984.
 
 ## Quick start with Claude Code
 

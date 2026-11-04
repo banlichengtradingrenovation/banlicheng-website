@@ -2,7 +2,7 @@
 
 ## Project goal
 
-This is a one-page, mobile-first renovation contractor website for Ban Li Cheng Trading & Renovation in Singapore (the registered business name is NOT "Pte Ltd"; never add "Pte Ltd" or "Private Limited"). The company was established in 1984 and was formerly known as Sin Bee Loong. The site is designed to turn homeowner uncertainty into a simple consultation or WhatsApp enquiry.
+This is a one-page, mobile-first renovation contractor website for Ban Li Cheng Trading & Renovation in Singapore (the registered business name is NOT "Pte Ltd"; never add "Pte Ltd" or "Private Limited"). The company was established in 1984. It has always been called Ban Li Cheng; never mention "Sin Bee Loong" or any former name. The site is designed to turn homeowner uncertainty into a simple consultation or WhatsApp enquiry.
 
 ## Local development
 
@@ -43,7 +43,7 @@ Use a warm, modern editorial renovation aesthetic: cream, charcoal, terracotta a
 
 ## Content priorities
 
-Keep the story concise: homeowner worries, Ban Li Cheng's solution, real transformations, process, and a strong consultation/WhatsApp CTA. The service scope includes HDB, condo and landed homes; hacking, tiling, painting, custom carpentry and feature walls.
+Keep the story concise: Ban Li Cheng's promise, Ban Li Cheng's solution, real transformations, process, and a strong consultation/WhatsApp CTA. The service scope includes HDB, condo and landed homes; hacking, tiling, painting, custom carpentry and feature walls.
 
 ## Before handing back changes
 

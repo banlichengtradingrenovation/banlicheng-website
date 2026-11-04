@@ -1,7 +1,7 @@
 # Ban Li Cheng Renovation Website
 
 ## One-page conversion website
-- [x] Replace the starter page with a mobile-first one-page website for Ban Li Cheng Trading & Renovation, established in Singapore since 1984 and formerly known as Sin Bee Loong.
+- [x] Replace the starter page with a mobile-first one-page website for Ban Li Cheng Trading & Renovation, established in Singapore since 1984.
 - [x] Lead with a real uploaded renovation transformation video/visual and clear phone, WhatsApp and consultation CTAs.
 - [x] Present homeowner pain points including unclear quotations, poor communication, delays and renovation stress.
 - [x] Present the Ban Li Cheng solution: honest advice, clear quotations, coordinated renovation and careful workmanship.
